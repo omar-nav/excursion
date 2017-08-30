@@ -1,17 +1,35 @@
 body {
   background-color: black;
   text-align: center;
+  color: white;
 }
 
 h1 {
   font-family: Verdana;
   font-weight: normal;
   font-size: 50px;
-  color: white;
   text-align: center;
 }
 
 .cta{
   color: aquamarine;
   font-size: 16px
+}
+
+h2{
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+}
+
+h3{
+  /*overides white text color*/
+  font-family: Verdana;
+  font-size: 21px;
+  color: gray;
+}
+
+h4{
+  text-align: right;
+  color: gray;
 }
